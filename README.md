@@ -1,8 +1,13 @@
-![Slush Banana Logo](https://github.com/bananacss/slush-banana/blob/master/logo.png)
+<!-- ![Slush Banana Logo](https://github.com/bananacss/slush-banana/blob/master/logo.png) -->
 
 # Slush [Banana](https://github.com/bananacss/bananacss)
 
 > Front-End boilerplate generator with banana flavor.
+
+[![Dependency Status](https://david-dm.org/bananacss/slush-banana.svg)](https://david-dm.org/bananacss/slush-banana)
+[![devDependency Status](https://david-dm.org/bananacss/slush-banana/dev-status.svg)](https://david-dm.org/bananacss/slush-banana#info=devDependencies)
+[![npm](https://img.shields.io/npm/v/slush-banana.svg)](https://www.npmjs.com/package/slush-banana)
+[![npm](https://img.shields.io/npm/dt/slush-banana.svg)](https://www.npmjs.com/package/slush-banana)
 
 ## How to install and use the generator?
 
@@ -29,10 +34,7 @@ $ slush banana
 Stack based in NodeJS:
 
 - Generator: [Slush](http://slushjs.github.io/#/)
-- Task Runner: [Gulp](http://gulpjs.com/)
-- CSS Superset: [BananaCSS](https://github.com/bananacss/bananacss)
-- JS Traspiler: [BabelJS](https://babeljs.io/)
-- Test Runner: [Karma](https://www.npmjs.com/package/karma)
+- CSS Superset: [BananaCSS](https://github.com/bananacss/bananacss) (0.7.2)
 - CSS Reset: [Normalize](https://necolas.github.io/normalize.css/)
 
 Folders Structure:
@@ -47,14 +49,12 @@ Folders Structure:
 	|   |       ├── modules/
 	|   |       └── main.bnn
 	|   └── index.html
-	├── gulpfile.js
 	├── package.json
 	└── .gitignore
 
 Automatic Tasks:
 
-- `$ npm build`: Compile the .bnn code.
-- `$ npm start`: Watch the .bnn files to build and start a static server: [localhost:8080](http://localhost:8080/)
+- `$ npm start`: Watch the .bnn files to build and start a static server.
 
 ## Versioning
 
