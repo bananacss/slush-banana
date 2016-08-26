@@ -1,0 +1,6 @@
+@import modules/variables.bnn;
+
+.main {
+  bnn-size: 100% 0px;
+  background: var(--highlight);
+}
