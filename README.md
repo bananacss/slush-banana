@@ -38,7 +38,7 @@ $ slush banana
 Stack based in NodeJS:
 
 - Generator: [Slush](http://slushjs.github.io/#/)
-- CSS Superset: [BananaCSS](https://github.com/bananacss/bananacss) (0.7.2)
+- CSS Superset: [BananaCSS](https://github.com/bananacss/bananacss)
 - CSS Reset: [Normalize](https://necolas.github.io/normalize.css/)
 
 Folders Structure:
