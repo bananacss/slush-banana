@@ -7,10 +7,9 @@
     "email": "<%= appEmail %>"
   },
   "scripts": {
-    "start": "./node_modules/.bin/concurrently './node_modules/.bin/banana -w app/styles/bnn/main.bnn -o app/styles/css/main.css' './node_modules/.bin/http-server ./app -p 5000 -o'"
+    "start": "./node_modules/.bin/concurrently 'banana -w app/styles/bnn/main.bnn -o app/styles/css/main.css' './node_modules/.bin/http-server ./app -p 5000 -o'"
   },
   "devDependencies": {
-    "bananacss": "^0.7.2",
     "concurrently": "^2.2.0",
     "http-server": "^0.9.0"
   }

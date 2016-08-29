@@ -4,12 +4,16 @@
 
 > Front-End boilerplate generator with banana flavor.
 
-[![Dependency Status](https://david-dm.org/bananacss/slush-banana.svg)](https://david-dm.org/bananacss/slush-banana)
-[![devDependency Status](https://david-dm.org/bananacss/slush-banana/dev-status.svg)](https://david-dm.org/bananacss/slush-banana#info=devDependencies)
 [![npm](https://img.shields.io/npm/v/slush-banana.svg)](https://www.npmjs.com/package/slush-banana)
 [![npm](https://img.shields.io/npm/dt/slush-banana.svg)](https://www.npmjs.com/package/slush-banana)
 
 ## How to install and use the generator?
+
+Install the BananaCSS CLI:
+
+```sh
+$ [sudo] npm install -g bananacss
+```
 
 Install the slush:
 

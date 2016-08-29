@@ -13,7 +13,7 @@ gulp.task('default', function(done) {
     //Answers
     var prompts = [{
         name: 'appName',
-        message: 'What the name of program?'
+        message: 'What the name of project?'
     }, {
         name: 'appDescription',
         message: 'What the description?'

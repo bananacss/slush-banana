@@ -1,6 +1,11 @@
 @import modules/variables.bnn;
 
-.main {
-  bnn-size: 100% 0px;
-  background: var(--highlight);
+html {
+	height: 100%;
+}
+
+body {
+	background: var(--highlight);
+	bnn-align: center;
+	height: 100%;
 }
