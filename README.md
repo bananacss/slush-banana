@@ -40,25 +40,30 @@ Stack based in NodeJS:
 - Generator: [Slush](http://slushjs.github.io/#/)
 - CSS Superset: [BananaCSS](https://github.com/bananacss/bananacss)
 - CSS Reset: [Normalize](https://necolas.github.io/normalize.css/)
+- JS Compiler: [BabelJS](https://babeljs.io/)
+- Task runner: [GulpJS](http://gulpjs.com/)
 
 Folders Structure:
 
 	.
 	├── README.md
-	├── app/
+	├── src/
 	|   ├── scripts/
 	|   ├── styles/
-	|   |   ├── css/
-	|   |   └── bnn/
-	|   |       ├── modules/
-	|   |       └── main.bnn
+	|   |   |   modules/
+	|   |   └── main.bnn
+	├── out/
+	|   ├── scripts/
+	|   ├── styles/
+	|   |   └── main.css
 	|   └── index.html
 	├── package.json
 	└── .gitignore
 
 Automatic Tasks:
 
-- `$ npm start`: Watch the .bnn files to build and start a static server.
+- `$ gulp serve`: Start a static server and Watch files for livereload.
+- `$ gulp build`: Build with bananaCSS and Babel.
 
 ## Versioning
 
@@ -69,10 +74,6 @@ To keep better organization of releases we follow the [Semantic Versioning 2.0.0
 Find on our [issues](https://github.com/bananacss/slush-banana/issues/1) the next steps of the project ;)
 <br>
 Want to contribute? [Follow these recommendations](https://github.com/bananacss/slush-banana/blob/master/CONTRIBUTING.md).
-
-## History
-
-See [Releases](https://github.com/bananacss/slush-banana/releases) for detailed changelog.
 
 ## License
 
