@@ -15,6 +15,7 @@
     "underscore.string": "~2.3.3",
     "inquirer": "~0.4.1"
   },
+  "preferGlobal": true,
   "author": {
     "name": "Afonso Pacifer",
     "email": "afonsopacifer@live.com",
