@@ -1,5 +1,6 @@
 {
   "name": "<%= appNameSlug %>",
+  "version": "0.1.0",
   "description": "<%= appDescription %>",
   "version": "<%= appVersion %>",
   "author": {
